@@ -1,8 +1,45 @@
-*{
-  font-family: cursor, courier;
-/*  font-weight: bold;*/
-  color: green;
-}
 body {
-  background: black;
+  background: white;
+  font-family: Helvetica;
+  color: black;
+}
+
+#container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+#stats_table {
+  width: 100%;
+	border-width: 0px;
+	border-style: none;
+	border-color: gray;
+	border-collapse: collapse;
+	background-color: white;
+	margin-bottom: 10px;
+}
+
+#stats_table th {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: gray;
+	background-color: white;
+}
+
+#stats_table td {
+	border-width: 1px;
+	padding: 5px;
+	border-style: solid;
+	border-color: gray;
+	background-color: white;
+	color: grey;
+}
+
+.sub_heading {
+  color: black;
+}
+
+#output {
+  margin-bottom: 10px;
 }
